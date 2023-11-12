@@ -1,0 +1,20 @@
+export class user {
+    userid:number;
+    firstName:string;
+    lastName:string;
+    username:string;
+    password:string;
+    email:string;
+    roles:string;
+    accountStatus:boolean;
+    constructor(usr:user){
+        this.userid=usr.userid;
+        this.firstName=usr.firstName;
+        this.lastName=usr.lastName;
+        this.username=usr.username;
+        this.password=usr.password;
+        this.email=usr.email;
+        this.roles=usr.roles;
+        this.accountStatus=usr.accountStatus;
+    }
+}
